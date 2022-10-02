@@ -1,0 +1,28 @@
+:root {
+  --first-color: #488cff;
+  --second-color: #ffff8c;
+	--height: 64px;
+}
+
+#firstParagraph {
+  background-color: var(--first-color);
+  color: var(--second-color);
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.height-64px {
+	height: var(--height);
+	line-height: var(--height);
+}
+
+nav .sidenav-trigger i {
+	height: var(--height);
+	line-height: var(--height);
+}

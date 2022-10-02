@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    background: lightgray;
+}
+
+#background {
+    position: absolute;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+
+.qrcode-wrapper {
+    background: lightgray;
+    box-shadow: 0 0 15px 10px darkgray;
+    margin: 15px;
+    display: none;
+}
+
+.title {
+    font-family: "Indie Flower";
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px 0 10px 0;
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Indie Flower";
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+
+.update-button, .save-button {
+    font-family: "Indie Flower";
+    font-size: 1rem;
+    margin: 20px 0 10px 0;
+}
